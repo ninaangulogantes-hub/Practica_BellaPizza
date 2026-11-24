@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bellapizza.propietario.PedidosController">
+   <children>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="73.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="122.0" layoutY="58.0" prefHeight="31.0" prefWidth="98.0" text="Pedidos" />
+      <TableView layoutX="83.0" layoutY="100.0" prefHeight="249.0" prefWidth="476.0">
+        <columns>
+          <TableColumn prefWidth="88.33332824707031" text="Cliente" />
+          <TableColumn prefWidth="112.0" text="Fecha" />
+            <TableColumn prefWidth="83.33334350585938" text="Pizzas" />
+            <TableColumn prefWidth="98.33331298828125" text="Estado " />
+            <TableColumn prefWidth="96.6666259765625" text="Acciones" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
