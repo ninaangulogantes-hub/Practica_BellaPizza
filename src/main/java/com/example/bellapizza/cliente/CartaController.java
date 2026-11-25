@@ -1,4 +1,4 @@
 package com.example.bellapizza.cliente;
 
-public class Carta {
+public class CartaController {
 }
