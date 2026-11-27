@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bellapizza.RegistroController">
+   <children>
+      <Label layoutX="105.0" layoutY="38.0" text="Registro" />
+      <Label layoutX="68.0" layoutY="65.0" text="Crea tu cuenta de cliente  " />
+      <TextField fx:id="txtNombre" layoutX="63.0" layoutY="94.0" promptText="Nombre y apellidos" />
+      <TextField fx:id="txtUsuario" layoutX="63.0" layoutY="136.0" promptText="Usuario" />
+      <TextField fx:id="txtCorreo" layoutX="63.0" layoutY="174.0" promptText="Correo electrónico" />
+      <TextField fx:id="txtContrasena" layoutX="63.0" layoutY="215.0" promptText="Contraseña" />
+      <TextField fx:id="txtConfirmar" layoutX="63.0" layoutY="262.0" promptText="Confirmar contraseña" />
+      <Button layoutX="63.0" layoutY="299.0" mnemonicParsing="false" onAction="#registrar" prefHeight="25.0" prefWidth="149.0" text="Registrarse" />
+      <Button layoutX="92.0" layoutY="342.0" mnemonicParsing="false" onAction="#atras" text="Volver al login" />
+      <ImageView fitHeight="400.0" fitWidth="403.0" layoutX="278.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/registro.jpg" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

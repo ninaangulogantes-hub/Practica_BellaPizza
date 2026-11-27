@@ -1,4 +1,4 @@
-package com.example.bellapizza;
+package com.example.bellapizza.propietario;
 
 public class TopController {
 

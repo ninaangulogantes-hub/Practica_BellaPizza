@@ -4,7 +4,7 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bellapizza.propietario.DrawerController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bellapizza.cliente.DrawerController">
    <children>
       <BorderPane prefHeight="407.0" prefWidth="600.0">
          <left>
@@ -16,21 +16,16 @@
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
                      </graphic>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="43.0" prefWidth="137.0" text="Pizzas">
+                  <Button mnemonicParsing="false" prefHeight="43.0" prefWidth="137.0" text="Carta">
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
                      </graphic></Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="138.0" text="Clientes">
+                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="138.0" text="Mis pedidos">
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
                      </graphic>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="142.0" text="Top Clientes">
-                     <graphic>
-                        <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
-                     </graphic>
-                  </Button>
-                  <Button mnemonicParsing="false" prefHeight="41.0" prefWidth="133.0" text="Pedidos">
+                  <Button mnemonicParsing="false" prefHeight="38.0" prefWidth="142.0" text="Mi perfil">
                      <graphic>
                         <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true" />
                      </graphic>

@@ -3,67 +3,49 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<StackPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bellapizza.propietario.BienvenidaController">
+<StackPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bellapizza.cliente.InicioController">
    <children>
       <BorderPane prefHeight="200.0" prefWidth="200.0">
          <top>
             <AnchorPane>
                <children>
-                  <Label layoutX="71.0" layoutY="39.0" text="Bienvenido, x" />
-                  <Label layoutX="71.0" layoutY="60.0" text="Gestiona tu pizzeria desde aquí. " />
-                  <ImageView fitHeight="89.0" fitWidth="135.0" layoutX="438.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="71.0" layoutY="60.0" text="Disfruta de nuestras deliciosas pizzas" />
+                  <ImageView fitHeight="155.0" fitWidth="600.0" layoutX="-3.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="71.0" layoutY="39.0" text="Bienvenido a BellaPizza" />
+                  <ImageView fitHeight="194.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" />
                </children>
             </AnchorPane>
          </top>
          <center>
             <AnchorPane prefHeight="160.0" prefWidth="600.0" BorderPane.alignment="CENTER">
                <children>
-                  <VBox layoutX="78.0" layoutY="22.0" prefHeight="70.0" prefWidth="70.0">
-                     <children>
-                        <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
-                        <Label prefHeight="17.0" prefWidth="74.0" text="Label" />
-                        <Label layoutX="10.0" layoutY="60.0" prefHeight="17.0" prefWidth="74.0" text="Pizzas" />
-                     </children>
-                  </VBox>
-                  <VBox layoutX="181.0" layoutY="22.0" prefHeight="70.0" prefWidth="70.0">
-                     <children>
-                        <VBox prefHeight="70.0" prefWidth="70.0">
-                           <children>
-                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
-                              <Label prefHeight="17.0" prefWidth="74.0" text="Label" />
-                              <Label layoutX="10.0" layoutY="60.0" prefHeight="17.0" prefWidth="74.0" text="Clientes" />
-                           </children>
-                        </VBox>
-                     </children>
-                  </VBox>
-                  <VBox layoutX="274.0" layoutY="22.0" prefHeight="70.0" prefWidth="70.0">
-                     <children>
-                        <VBox prefHeight="70.0" prefWidth="70.0">
-                           <children>
-                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
-                              <Label prefHeight="13.0" prefWidth="70.0" text="Label" />
-                              <Label layoutX="10.0" layoutY="60.0" prefHeight="17.0" prefWidth="74.0" text="Pedidos" />
-                           </children>
-                        </VBox>
-                     </children>
-                  </VBox>
-                  <VBox layoutX="378.0" layoutY="22.0" prefHeight="70.0" prefWidth="70.0">
-                     <children>
-                        <VBox prefHeight="70.0" prefWidth="70.0">
-                           <children>
-                              <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" />
-                              <Label prefHeight="13.0" prefWidth="70.0" text="Label" />
-                              <Label layoutX="10.0" layoutY="60.0" prefHeight="17.0" prefWidth="74.0" text="Disponible" />
-                           </children>
-                        </VBox>
-                     </children>
-                  </VBox>
+                  <Button contentDisplay="BOTTOM" layoutX="14.0" layoutY="47.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="163.0" text="Nuestra carta" textAlignment="JUSTIFY" textOverrun="CLIP">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" />
+                     </graphic></Button>
+                  <Button contentDisplay="BOTTOM" layoutX="212.0" layoutY="47.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="163.0" text="Mis pedidos" textAlignment="JUSTIFY" textOverrun="CLIP">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" />
+                     </graphic>
+                  </Button>
+                  <Button contentDisplay="BOTTOM" layoutX="422.0" layoutY="47.0" mnemonicParsing="false" prefHeight="101.0" prefWidth="163.0" text="Mi perfil" textAlignment="JUSTIFY" textOverrun="CLIP">
+                     <font>
+                        <Font name="System Bold Italic" size="12.0" />
+                     </font>
+                     <graphic>
+                        <ImageView fitHeight="40.0" fitWidth="38.0" pickOnBounds="true" preserveRatio="true" />
+                     </graphic>
+                  </Button>
                </children>
             </AnchorPane>
-         </center>
-         <bottom>
-            <ImageView fitHeight="150.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
-         </bottom></BorderPane>
+         </center></BorderPane>
    </children>
 </StackPane>

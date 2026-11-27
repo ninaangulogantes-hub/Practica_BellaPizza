@@ -4,7 +4,7 @@
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bellapizza.GestionController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bellapizza.propietario.GestionController">
    <children>
       <ImageView fitHeight="60.0" fitWidth="74.0" layoutX="31.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
       <Label layoutX="131.0" layoutY="44.0" text="Gestión de pizzas" />

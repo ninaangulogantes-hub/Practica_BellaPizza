@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="CONTROLLER_NAME"
-            prefHeight="400.0" prefWidth="600.0" >
-
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.bellapizza.cliente.PerfilCotroller">
+   <children>
+      <Label layoutX="105.0" layoutY="38.0" text="Mi perfil" />
+      <TextField layoutX="63.0" layoutY="94.0" promptText="Nombre y apellidos" />
+      <TextField layoutX="63.0" layoutY="136.0" promptText="Usuario" />
+      <TextField layoutX="63.0" layoutY="174.0" promptText="Correo electrónico" />
+      <TextField layoutX="63.0" layoutY="215.0" promptText="Contraseña" />
+      <Button layoutX="62.0" layoutY="261.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="149.0" text="Guardar cambios" />
+      <ImageView fitHeight="400.0" fitWidth="286.0" layoutX="315.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
 </AnchorPane>
