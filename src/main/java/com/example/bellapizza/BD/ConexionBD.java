@@ -6,11 +6,11 @@ import java.sql.SQLException;
 
 public class ConexionBD {
 
-    private final String USER = "root";
-    private final String PWD = "root";
-    private final String URL = "jdbc:mysql://localhost:3306/tienda";
+    private static final String USER = "root";
+    private static final String PWD = "root";
+    private static final String URL = "jdbc:mysql://localhost:3306/bella_pizza";
 
-    public Connection abrirConexion() {
+    public static Connection abrirConexion() {
 
         Connection con = null;
 
